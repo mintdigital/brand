@@ -1,0 +1,349 @@
+.dim {opacity: 0.5;}
+
+.showcase {background-color: white; padding-right: 30px; padding-left: 30px; padding-top: 10px; padding-bottom: 10px; border-radius: 4px; margin-top: 30px;}
+
+.logo-showcase {background-color: white; padding: 50px; border-radius: 4px; margin-top: 0px;}
+.logo-showcase.brand {background-color: #00ca53;}
+.logo-showcase.dark {background-color: #333;}
+
+
+#brand {background-color: #00ca53; height: 12px; top:0; width: 100%; position: fixed;}
+
+
+.maison {
+
+  font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #333;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+h1 {
+    font-family: "Calibre","Maison Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 72px;
+    line-height: 1;
+    text-align: left;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 769px) {
+h1 {
+    font-size: 50px;
+}
+}
+
+h2 {
+    font-family: "Calibre","Maison Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 42px;
+    text-align: left;
+        margin-bottom: 0;
+}
+
+
+
+@media only screen and (max-width: 769px) {
+h2 {
+    font-size: 24px;
+}
+}
+
+@media only screen and (max-width: 769px) {
+h2.xlrg {
+    font-size: 33.6px;
+}
+}
+
+h3 {
+    font-family: "Calibre","Maison Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 769px) {
+h3 {
+    font-size: 20.8px;
+}
+
+}
+
+h4 {
+    font-family: "Calibre","Maison Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 769px) {
+h4 {
+    font-size: 19.2px;
+}
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+a,button {
+    cursor: pointer;
+    color: #00ca53;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: none;
+}
+
+a,form.text div.submit button {
+    color: #00ca53;
+    border-radius: 4px;
+    text-decoration: none;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+a:hover,a:focus,a.cur,form.text:hover div.submit button span {
+    color: #00973e;
+}
+
+input.placeholder,textarea.placeholder {
+    color: #c7c6c6;
+}
+
+input[disabled],button[disabled] {
+    cursor: pointer;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+a.secondary {
+    color: #f08200;
+}
+
+a.secondary:hover,a.secondary:focus {
+    color: #bd6600;
+}
+
+a.light {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+a.light:hover,a.light:focus {
+    border-color: rgba(255,255,255,0.5);
+    color: rgba(255,255,255,0.75);
+}
+
+a.dark {
+    color: #656565;
+}
+
+a.dark:hover,a.dark:focus {
+    color: #b2b2b2;
+}
+
+blockquote {
+    margin-bottom: 25px;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Light-webfont-8b3fac73cdf7597356a96129de83dad3.eot);
+    src: url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Light-webfont-8b3fac73cdf7597356a96129de83dad3.eot?#iefix) format("embedded-opentype"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Light-webfont-129db9206415c941cec5f7ba02191386.woff2) format("woff2"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Light-webfont-330be6c3e0004df56d1fa8b9202a09de.woff) format("woff"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Light-webfont-7906de727099d556217d794041f81968.ttf) format("truetype"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Light-webfont-bdd86abfb7d9d74b26dab9b028c653c4.svg#maison_neuelight) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Medium-webfont-6f558c2bc33e26478819cfd04370498d.eot);
+    src: url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Medium-webfont-6f558c2bc33e26478819cfd04370498d.eot?#iefix) format("embedded-opentype"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Medium-webfont-c899fcf19d30ee844b9d5322d009e3ca.woff2) format("woff2"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Medium-webfont-914fead90ce4f723f1f63fdc294714a8.woff) format("woff"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Medium-webfont-cb98cb81e9b30dad1aac0b96e1c98b09.ttf) format("truetype"),url(http://mintdigital.com//assets/maison-neue/MaisonNeue-Medium-webfont-82228590714c311c5fae6b45e729c203.svg#maison_neuemedium) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url(http://mintdigital.com//assets/calibre/Calibre-Medium-7f4f69274ede9e6592bf69603827e387.eot);
+    src: url(http://mintdigital.com//assets/calibre/Calibre-Medium-7f4f69274ede9e6592bf69603827e387.eot?#iefix) format("embedded-opentype"),url(http://mintdigital.com//assets/calibre/Calibre-Medium-a1873d8bca96db6c55e80b4c4b0e6fc9.woff) format("woff"),url(http://mintdigital.com//assets/calibre/Calibre-Medium-3d974f9dd09f1100876c6079121a6802.ttf) format("truetype"),url(http://mintdigital.com//assets/calibre/Calibre-Medium-eb6b9f068dee433099e7c4b73b62de78.svg#maison_neuemedium) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/*
+ * Gridism demonstration page
+ * These styles are all just for the Gridism demo page.
+ * You don’t need this styleshee in your project.
+ */
+
+/* General */
+
+body {
+  font-family: "Calibre","Maison Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #444;
+  background: #f2f2f2;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+/* I use full-width horizontal sections a lot */
+body > header,
+body > section,
+body > footer {
+  display: block;
+  width: 100%;
+  clear: both;
+  float: left;
+}
+
+
+
+a {
+  color: #00ca53;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: #333333;
+  margin: 0;
+  width: 100%;
+}
+
+header, section, footer {
+  border-top: 1px solid #fff;
+}
+
+section, footer {
+  padding: 30px 0;
+}
+
+header h1 a {
+  color: #333;
+  border-bottom: none;
+}
+
+header p {
+  margin: 2em 0;
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+p, pre {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.button {
+  
+  background: #00ca53;
+color: white;
+text-shadow:none;
+font-size: 1.6em;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  font-family: "Calibre","Maison Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  display: inline-block;
+
+}
+
+.button:hover, .button:focus {
+  outline: none;
+ background-color: #00973e;
+ color: white;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+@media (min-width: 960px){
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 2.6em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  .lead {
+    font-size: 1.8em;
+  }
+}
+
+/* Styles to help demonstrate the grid */
+
+code, pre {
+  font-family: "Source Code Pro", Consolas, Menlo, Monaco, monospace;
+  background: #F1E3D5;
+  color: #333;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+pre {
+  padding: 10px;
+  text-align: center;
+}
+
+.demo p {
+  margin: 0;
+}
+
+.demo .unit pre {
+  margin: 0;
+  padding: 20px 0;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.demo .unit pre:hover {
+  background: #fc0;
+}
+
+.grid, .unit {
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+.demo .unit .grid {
+  overflow: hidden;
+  background: rgba(241,227,213,.5);
+}
+
+.demo .unit .grid:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.demo .unit .grid:last-child {
+  border-radius: 0 0 5px 5px;
+}
